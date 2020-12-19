@@ -28,7 +28,7 @@ const BookForm = ({ dispatch }) => {
       />
       <input
         type="text"
-        placeholder="Book author"
+        placeholder="author"
         value={author}
         onChange={(e) => setAuthor(e.target.value)}
         required
